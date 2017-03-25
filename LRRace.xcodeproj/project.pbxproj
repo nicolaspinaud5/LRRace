@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		371FB1761E820FF200A5F692 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371FB1751E820FF200A5F692 /* Constants.swift */; };
+		377772591E86EBDB0000B418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377772581E86EBDB0000B418 /* Main.storyboard */; };
+		3777725A1E86EBDB0000B418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377772581E86EBDB0000B418 /* Main.storyboard */; };
+		3777725B1E86EBDB0000B418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377772581E86EBDB0000B418 /* Main.storyboard */; };
 		37BEC60F1E841B6E00C43DDA /* AverageSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BEC6031E841B6E00C43DDA /* AverageSpeed.swift */; };
 		37BEC6101E841B6E00C43DDA /* Circuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BEC6041E841B6E00C43DDA /* Circuit.swift */; };
 		37BEC6111E841B6E00C43DDA /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BEC6051E841B6E00C43DDA /* Constructor.swift */; };
@@ -55,6 +58,7 @@
 		133B91CBCBF2DBD76B69C61C /* Pods-LRRaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRRaceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LRRaceUITests/Pods-LRRaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		211FB02CE1300C3E94C4CD68 /* Pods_LRRaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRRaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371FB1751E820FF200A5F692 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		377772581E86EBDB0000B418 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		37BEC6031E841B6E00C43DDA /* AverageSpeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageSpeed.swift; sourceTree = "<group>"; };
 		37BEC6041E841B6E00C43DDA /* Circuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circuit.swift; sourceTree = "<group>"; };
 		37BEC6051E841B6E00C43DDA /* Constructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				37BF59E01E8160030054B590 /* AppDelegate.swift */,
 				371FB1751E820FF200A5F692 /* Constants.swift */,
 				37BF59E21E8160030054B590 /* ViewController.swift */,
+				377772581E86EBDB0000B418 /* Main.storyboard */,
 				37F794C01E84BC7800F6B514 /* APIManager.swift */,
 				37BF59E71E8160030054B590 /* Assets.xcassets */,
 				37BF59E91E8160030054B590 /* LaunchScreen.storyboard */,
@@ -333,6 +338,7 @@
 				37BF59EB1E8160030054B590 /* LaunchScreen.storyboard in Resources */,
 				37BF5A0F1E8162880054B590 /* GoogleService-Info.plist in Resources */,
 				37BF59E81E8160030054B590 /* Assets.xcassets in Resources */,
+				377772591E86EBDB0000B418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37BF5A101E8162880054B590 /* GoogleService-Info.plist in Resources */,
+				3777725A1E86EBDB0000B418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37BF5A111E8162880054B590 /* GoogleService-Info.plist in Resources */,
+				3777725B1E86EBDB0000B418 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
