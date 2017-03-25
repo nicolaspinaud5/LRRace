@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,26 +23,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LRRace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHg-9a-N1S">
-                                <rect key="frame" x="129" y="28" width="117" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LRRace" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHg-9a-N1S">
+                                <rect key="frame" x="129" y="28" width="117" height="27.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y3-vo-K6B">
-                                <rect key="frame" x="16" y="171" width="343" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y3-vo-K6B">
+                                <rect key="frame" x="16" y="160" width="343" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="racingflagvector" translatesAutoresizingMaskIntoConstraints="NO" id="wet-6V-vIC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="racingflagvector" translatesAutoresizingMaskIntoConstraints="NO" id="wet-6V-vIC">
                                 <rect key="frame" x="-59" y="269" width="493" height="429"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wet-6V-vIC" secondAttribute="height" multiplier="493:429" id="Or1-DJ-UJ8"/>
+                                    <constraint firstAttribute="width" constant="493" id="wNo-t8-fOM"/>
+                                    <constraint firstAttribute="height" constant="429" id="xC2-4i-lef"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wet-6V-vIC" firstAttribute="centerX" secondItem="EHg-9a-N1S" secondAttribute="centerX" id="0pb-NM-Ra1"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="wet-6V-vIC" secondAttribute="bottom" constant="-31" id="RbC-6A-zFN"/>
+                            <constraint firstItem="EHg-9a-N1S" firstAttribute="top" secondItem="7Ry-TP-8ve" secondAttribute="bottom" constant="8" id="ZcG-1d-4AB"/>
+                            <constraint firstItem="EHg-9a-N1S" firstAttribute="leading" secondItem="27Q-C8-0vZ" secondAttribute="leadingMargin" constant="113" id="dx8-Sg-e7B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EHg-9a-N1S" secondAttribute="trailing" constant="113" id="u5a-Bv-IP6"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="ageLabel" destination="6y3-vo-K6B" id="8oK-Sp-g6I"/>
