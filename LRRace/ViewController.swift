@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor(red:0.88, green:0.96, blue:0.98, alpha:1.00)
+        self.view.backgroundColor = UIColor(red:0.86, green:0.95, blue:0.97, alpha:1.00)
         
         let apiManager = APIManager(vc: self)
         
