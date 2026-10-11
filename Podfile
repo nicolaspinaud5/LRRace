@@ -8,7 +8,7 @@ target 'LRRace' do
   # Pods for LRRace
   pod 'Firebase/Core'
   pod 'Firebase/Database'
-  pod 'Alamofire', '~> 4.4'
+  pod 'Alamofire', '~> 5.0'
 
   target 'LRRaceTests' do
     inherit! :search_paths
